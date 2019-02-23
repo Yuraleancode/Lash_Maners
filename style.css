@@ -1,0 +1,24 @@
+html, body {
+	width: 100%;
+	height: 100%;
+
+}
+
+.head{
+	font-family: 'Caveat', cursive;
+	position: relative;
+	height: 130px;
+	width: 160px;
+	background: orange;
+	
+	}
+.head_1{
+	position: relative;
+	height: 130px;
+	width:800px;
+	background: green;
+	left: 165px;
+	bottom: 129px;
+	float: left;
+
+}
