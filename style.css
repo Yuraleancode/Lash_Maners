@@ -17,7 +17,7 @@ h3 {
 	border: 2px solid black;
 
 	}
-.head_1{ 
+.head_1{  /* зеленый заголовок*/
 	position: relative;
 	height: 130px;
 	width:820px;
@@ -44,4 +44,10 @@ h3 {
 	height: 500px;
 	border:2px solid black;
 	left:0px;
+}
+
+.slaidbar_1 {
+	position: absolute;
+	left: 5px;
+	top:5px;
 }
