@@ -1,7 +1,9 @@
-html, body {
+body { /*тело документа с фоном*/
 	width: 100%;
-	height: 100%;
-	background: #FFEFD5;
+	min-width:960px;
+	background: url(img/3.jpg);
+	background-size: 100%;
+
 
 }
 h3 {
@@ -13,15 +15,16 @@ h3 {
 	position: relative;
 	height: 130px;
 	width: 160px;
-	background: orange;
-	border: 2px solid black;
+	background: url();
+	/*border: 2px solid black;*/
+	text-align: left;
 
 	}
 .head_1{  /* зеленый заголовок*/
 	position: relative;
 	height: 130px;
 	width:820px;
-	background: green;
+	background: ;
 	left:170px;
 	bottom: 129px;
 	float: left;
