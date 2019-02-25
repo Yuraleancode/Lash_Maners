@@ -3,35 +3,9 @@ body { /*тело документа с фоном*/
 	min-width:960px;
 	background: url(img/3.jpg);
 	background-size: 100%;
-
-
-
-}
-h3 {
-	font-size: 20px;
 }
 
-.head{ /*оранжевый заголовок*/
-	font-family: 'Caveat', cursive;
-	position: relative;
-	height: 130px;
-	width: 160px;
-	background: url();
-	/*border: 2px solid black;*/
-	text-align: left;
 
-	}
-.head_1{  /* зеленый заголовок*/
-	position: relative;
-	height: 130px;
-	width:820px;
-	background: ;
-	left:170px;
-	bottom: 129px;
-	float: left;
-	text-align: center;
-
-}
 .footer {
 	position: fixed;
 	right: 0px;
@@ -43,16 +17,6 @@ h3 {
 	background: grey;
 	 background: rgba(111, 155, 45, 0.6);
 }
-.slaidbar {
-	position: relative;
-	width: 160px;
-	height: 500px;
-	border:2px solid black;
-	left:0px;
-}
-
-.slaidbar_1 {
-	position: absolute;
-	left: 5px;
-	top:5px;
+.a {
+	padding-left: 50px;
 }
