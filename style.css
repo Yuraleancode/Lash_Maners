@@ -4,11 +4,9 @@ body { /*тело документа с фоном*/
 	background: url(img/3.jpg);
 	background-size: 100%;
 }
-
-
 .footer {
 	position: fixed;
-	right: 0px;
+	right: 0px; 
 	height: 20px;
 	width: 100%;
 	bottom:  0px;
@@ -16,7 +14,4 @@ body { /*тело документа с фоном*/
 	/*border: 2px solid black;*/
 	background: grey;
 	 background: rgba(111, 155, 45, 0.6);
-}
-.a {
-	padding-left: 50px;
 }

@@ -5,19 +5,123 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Caveat|Indie+Flower|Laila" rel="stylesheet">
-	<title>Lash_Maners</title>
+	<title>Студия ресниц</title>
 </head>
 <body>
-	<h1>Студия ресниц Виктории Манеровой</h1>
+	<header class="main-header"> 
+		<nav class="header-navigation">
+			<a class="main-header-logo">
+		<img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа "Бородинский">
+		</a>
+		<ul class="site-navigation">
+			<li><a href="info.html">Информация</a></li>
+			<li><a href="news.html">Новости</a></li>
+			<li><a href="price.html">Прайс-лист</a></li>  <!--меню шапки -->
+			<li><a href="catalog.html">Магазин</a></li>
+			<li><a href="contacts.html">Каталог</a></li>
+		</ul>
+		</nav>
+	</header>
+	<main class="container">       <!--середина сайта, основной вид-->
+			<h1 class="visually-hidden">Студия ресниц "Lash_Maners"</h1>
 
-		<a  class="a" href="">!!!!</a>
-		<a  class="a" href="">!!!!</a>
-		<a  class="a" href="">!!!!</a>
-		<a  class="a" href="">!!!!</a>
-		<a  class="a" href="">!!!!</a>
-		
-	
-	
+		<section class="features">      <!--ПОД ЛОГОТИПОМ -->
+			<h2 class="visually-hidden">Преимущества</h2>
+			<ul class="features-list">
+				<li class="feature-item">
+					<h3>Быстро</h3>
+				<p>Мы делаем свою работу быстро.Два часа пролетят не заметно и вы счастливый обладатель стрижки минутки!</p>
+				</li>
+				<li class="feature-item">
+					<h3>Круто</h3>
+				<p>Забудьте как вы стриглись ранше, мы из вас сделаем звезду фктбола или кино! По крайней мере внешне.</p>
+				</li>
+				<li class="feature-item">
+					<h3>Дорого</h3>
+				<p>Наши мастера проффесионалы своего дела и не могут стоить дешево. К томуже разве цена не дает определенный статус.</p>
+				</li>
+			</ul>
+		</section>
+<!--Верстка четырех блоков в середине страницы НОВОСТИ (Первый блок)-->
+			<section class="news">
+				<h2>Новости</h2>
+			<ul class="news-list">
+				<li class="news-item">
+					<p>Нам наконецто завезли Ягермастер! Теперь вы можите пропустить стаканчик во время стрижки.</p>
+					<time datatime ="26-02-2019">26 февроля</time>
+				</li>
+				<li class="news-item"> 
+					<p>В нашей команде пополнения теперь Борис Бритва Стригунец будет Вас обслуживать, обладатель пристижных титулов и наград.</p>
+					<time datetime="26-02-2019">26 февраля</time>
+				</li>
+			</ul>
+			<a class="button" href="news.html">Все новости</a>
+			</section>
+<!--Верстка второго блока(галлерея) --> 
+			<section class="gallery">
+				<h2>Фотографии</h2>
+				<figure class="gallery-content">
+					<a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Интерьер"></a>
+				</figure>
+				<span class="button gallery-button gallery-button-back">Назад</span>
+				<span class="button gallery-button gallery-button-next">Вперед</span>
+			</section>
+<!--Верстка третьего блока (информация)  -->			
+			<section class="contacts" >
+				<h2>Контактная информация</h2>
+				<p>Барбершоп "Бородинский"<br>
+					Адрес: Санк-Петербург, Б. Конюшенная, д.19/8<br>
+					Телефон: +7(812)666-02-66
+				</p>
+				<p>
+					Время работы:<br>
+					пн-пт: c 10-00 до 22-00<br>
+					сб-вс: c 10-00 до 19-00
+				</p>
+				<a class="button" href="map.html">Как проехать</a>
+				<a class="button" href="contacts.html">Обратная связь</a>
+			</section>
+<!--Верстка четвертого блока(как записаться) -->
+			<section class="appointment">
+				<h2>Записаться</h2>
+				<p class="appointment-info"> Укажите желаемую дату и время и мы свяжимся с вами для подверждения брони</p>
+				<!-- Здесь будет форма-->
+			</section>			
+		</main>
+		<!-- Подвал страницы -->
+		<footer class="main-footer">
+			<p> 
+				Барбершоп "Бородинский"<br>
+				Адрес: г. Москва Б. Конюшенный д.19/9<br>
+				<a href="map.html">Как нас найти</a><br>
+				Телефон: +7(812)666-02-66
+			</p>
+			<div class="footer-social">
+				<b>Давайте дружить!</b>
+				<ul>
+				<li><a href="#" class="social-button">Вконтакте</a></li>
+				<li><a href="#" class="social-button">Фейсбук</a></li>
+				<li><a href="#" class="social-button">Инстаграм</a></li>
+				</ul>
+			</div>
+			<p class="footer-copyright">
+				<b>Разработанно: </b>
+				<a href="#" class="button">YuriManerov</a>
+			</p>
+		</footer>
+		<!-- Всплывающие окно -->
+		<section class="modal modal-login">
+			<h2>Личный кабинет</h2>
+			<p>Введите свое имя и пароль</p>
+			<!-- Здесь будет форма -->
+			<span class="modal-close"> x </span>
+		</section>
+		<section class="modal modal-map">
+			<h2 class="visually-hidden"> Как до нас добраться </h2>
+			<span class="modal-close"> x </span>
+		</section>
+</body>
+</html>
 		
 	
 
